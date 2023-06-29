@@ -1,0 +1,169 @@
+/* App.css */
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.TodoWrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.Todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Todo p {
+  cursor: pointer;
+  color: #333333;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.Todo.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.Todo div {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+  color: #777777;
+  transition: color 0.3s ease-in-out;
+}
+
+.edit-icon:hover {
+  color: #4287f5;
+}
+
+.delete-icon:hover {
+  color: #f54242;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e04131;
+}
+
+/* Additional colorful styles */
+
+.TodoWrapper {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.Todo {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  transition: all 0.3s ease-in-out;
+}
+
+.Todo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Todo.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.Todo div {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  color: #777777;
+  transition: color 0.3s ease-in-out;
+}
+
+.edit-icon:hover {
+  color: #4287f5;
+}
+
+.delete-icon:hover {
+  color: #f54242;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e04131;
+}
